@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Base Game -->
+
+  <ThingDef Name="FurnitureBase" ParentName="BuildingBase" Abstract="True">
+    <designationCategory>Furniture</designationCategory>
+    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <tradeTags>
+      <li>Furniture</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef Name="FurnitureWithQualityBase" ParentName="FurnitureBase" Abstract="True">
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef Name="ArtableFurnitureBase" ParentName="FurnitureWithQualityBase" Abstract="True">
+    <comps>
+      <li Class="CompProperties_Art">
+        <nameMaker>ArtName_Furniture</nameMaker>
+        <descriptionMaker>ArtDescription_Furniture</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+    </comps>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+  </ThingDef>
+
+<!-- GreyDevil Mods -->
+
+  <ThingDef Class="ICanChange.ThingDef_MeditationMat" ParentName="ArtableFurnitureBase">
+		<defName>GD_MeditationMat</defName>
+		<label>meditation mat</label>
+    <graphicData>
+      <texPath>Furniture/MedCushion</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1.2)</drawSize>
+      <shadowData>
+        <volume>(0.6, 0.6, 0.6)</volume>
+      </shadowData>
+      <damageData>
+        <rectN>(0,0,1,0.703125)</rectN>
+        <rectS>(0.09375,0,0.84375,1)</rectS>
+        <rectE>(0,0,0.84375,0.625)</rectE>
+        <rectW>(0.15625,0,0.84375,0.625)</rectW>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+			<MaxHitPoints>220</MaxHitPoints>
+			<WorkToBuild>7800</WorkToBuild>
+			<Mass>18</Mass>
+			<Flammability>0.1</Flammability>
+			<Beauty>4</Beauty>
+			<Comfort>1.5</Comfort>
+		</statBases>
+    <description>A beautiful mat for meditation.</description>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<size>(1,1)</size>
+		<passability>Standable</passability>
+		<designationCategory>Furniture</designationCategory>
+    <costStuffCount>30</costStuffCount>
+		<pathCost>1</pathCost>
+		<fillPercent>0.40</fillPercent>
+		<building>
+			<isSittable>true</isSittable>
+		</building>
+		<rotatable>false</rotatable>
+		<comps>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>
