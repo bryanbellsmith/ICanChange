@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <WorkTypeDef>
+    <defName>BB_Meditate</defName>
+    <labelShort>Meditate</labelShort>
+    <pawnLabel>Meditater</pawnLabel>
+    <gerundLabel>meditating</gerundLabel>
+    <description>Meditate to change traits.</description>
+    <verb>Meditate</verb>
+    <naturalPriority>100</naturalPriority>
+    <relevantSkills>
+      <li>Intellectual</li>
+    </relevantSkills>
+    <workTags>
+      <li>Intellectual</li>
+    </workTags>
+  </WorkTypeDef>
+</Defs>
