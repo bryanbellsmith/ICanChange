@@ -35,7 +35,7 @@
 <!-- GreyDevil Mods -->
 
   <ThingDef Class="ICanChange.ThingDef_MeditationMat" ParentName="ArtableFurnitureBase">
-		<defName>GD_MeditationMat</defName>
+		<defName>BB_MeditationMat</defName>
 		<label>meditation mat</label>
     <graphicData>
       <texPath>Furniture/MedCushion</texPath>
@@ -61,7 +61,7 @@
 			<Beauty>4</Beauty>
 			<Comfort>1.5</Comfort>
 		</statBases>
-    <description>A beautiful mat for meditation.</description>
+    <description>A mat for colonist meditation.</description>
     <socialPropernessMatters>true</socialPropernessMatters>
     <stuffCategories>
 			<li>Leathery</li>

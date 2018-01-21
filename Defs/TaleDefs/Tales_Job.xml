@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <TaleDef>
+    <defName>Meditated</defName>
+    <label>meditated</label>
+    <taleClass>Tale_SinglePawn</taleClass>
+    <type>Volatile</type>
+    <baseInterest>5</baseInterest>
+    <rulePack>
+      <rulesStrings>
+        <li>tale_noun->[pawn_nameShortDef] meditating</li>
+        <li>image->[pawn_nameFull] closing [pawn_possessive] eyes and [circumstance_group]</li>
+        <li>circumstance_phrase->radiating serenity</li>
+        <li>circumstance_phrase->with a tranquil smile</li>
+        <li>circumstance_phrase->with a [friendlyverb] smile</li>
+        <li>circumstance_phrase->glowing softly</li>
+        <li>circumstance_phrase->surrounded by a [color] aura</li>
+      </rulesStrings>
+    </rulePack>
+  </TaleDef>
+</Defs>
