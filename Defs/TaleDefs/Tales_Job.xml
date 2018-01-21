@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <TaleDef>
-    <defName>Meditated</defName>
+    <defName>BB_Meditated</defName>
     <label>meditated</label>
     <taleClass>Tale_SinglePawn</taleClass>
     <type>Volatile</type>
