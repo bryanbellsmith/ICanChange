@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
+
   <WorkGiverDef>
     <defName>BB_Meditate</defName>
     <label>meditate</label>
-    <giverClass>WorkGiver_Meditater</giverClass>
-    <workType>Meditate</workType>
+    <giverClass>ICanChange.WorkGiver_BBMeditator</giverClass>
+    <workType>BB_Meditate</workType>
     <verb>meditate</verb>
     <gerund>meditating</gerund>
   </WorkGiverDef>

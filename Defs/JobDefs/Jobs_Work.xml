@@ -2,7 +2,7 @@
 <Defs>
   <JobDef>
     <defName>BB_Meditate</defName>
-    <driverClass>JobDriver_BBMeditate</driverClass>
+    <driverClass>ICanChange.JobDriver_BBMeditate</driverClass>
     <reportString>meditating.</reportString>
     <taleOnCompletion>BB_Meditated</taleOnCompletion>
   </JobDef>

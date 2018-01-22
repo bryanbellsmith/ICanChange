@@ -3,14 +3,11 @@
   <WorkTypeDef>
     <defName>BB_Meditate</defName>
     <labelShort>Meditate</labelShort>
-    <pawnLabel>Meditater</pawnLabel>
+    <pawnLabel>Meditator</pawnLabel>
     <gerundLabel>meditating</gerundLabel>
     <description>Meditate to change traits.</description>
     <verb>Meditate</verb>
     <naturalPriority>100</naturalPriority>
-    <relevantSkills>
-      <li>Intellectual</li>
-    </relevantSkills>
     <workTags>
       <li>Intellectual</li>
     </workTags>

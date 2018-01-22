@@ -7,7 +7,7 @@ using Verse;
 
 namespace ICanChange
 {
-    public class ThingDef_MeditationMat : ThingDef
+    public class MeditationMat : ThingDef
     {
 
     }

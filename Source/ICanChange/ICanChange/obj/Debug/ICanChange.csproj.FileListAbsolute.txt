@@ -1,4 +1,0 @@
-C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\ICanChange\Source\Assemblies\ICanChange.dll
-C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\ICanChange\Source\ICanChange\ICanChange\obj\Debug\ICanChange.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\ICanChange\Source\ICanChange\ICanChange\obj\Debug\ICanChange.dll
-C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\ICanChange\Assemblies\ICanChange.dll
