@@ -8,8 +8,8 @@
     <description>Meditate to change traits.</description>
     <verb>Meditate</verb>
     <naturalPriority>100</naturalPriority>
-    <workTags>
+    <relevantSkills>
       <li>Intellectual</li>
-    </workTags>
+    </relevantSkills>
   </WorkTypeDef>
 </Defs>
